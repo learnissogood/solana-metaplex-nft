@@ -63,10 +63,11 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🍭 Candy Drop</p>
-          <p className="sub-text">NFT drop machine with fair mint</p>
-          {!walletAddress && renderNotConnectedContainer()}
+          <p className="header">🍭 Candy Machine Drop</p>
+          <p className="sub-text">Mint Your NFT on Solana!!</p>
         </div>
+        {!walletAddress && renderNotConnectedContainer()}
+        {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
