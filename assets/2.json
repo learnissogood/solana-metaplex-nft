@@ -1,0 +1,20 @@
+{
+    "name": "Number #0003",
+    "symbol": "NB",
+    "image": "2.png",
+    "properties": {
+        "files": [
+            {
+                "uri": "2.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "7bmDw888QgZ9ziW5oUAEocrDPeMPcHhbTMoNrfRCgFLc",
+                "share": 100
+            }
+        ]
+    },
+    "collection": {"name": "numbers", "family": "numbers"}
+}
